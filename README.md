@@ -1,4 +1,5 @@
 # Neighborhood Mixup Experience Replay (NMER)
+![nmer_diagram](img/diagram.png)
 NMER is a novel off-policy data augmentation technique designed to improve the sample efficiency of deep reinforcement learning agents in continuous control tasks.
 
 
