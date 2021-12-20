@@ -13,12 +13,12 @@ If you find NMER useful, please consider citing our paper as:
 
 ```
 @inproceedings{
-sander2021neighborhood,
-title={Neighborhood Mixup Experience Replay: Local Convex Interpolation for Improved Sample Efficiency in Continuous Control Tasks},
-author={Ryan Sander and Wilko Schwarting and Tim Seyde and Igor Gilitschenski and Sertac Karaman and Daniela Rus},
-booktitle={Deep RL Workshop NeurIPS 2021},
-year={2021},
-url={https://openreview.net/forum?id=jp9NJIlTK-t}
+  sander2021neighborhood,
+  title={Neighborhood Mixup Experience Replay: Local Convex Interpolation for Improved Sample Efficiency in Continuous Control Tasks},
+  author={Ryan Sander and Wilko Schwarting and Tim Seyde and Igor Gilitschenski and Sertac Karaman and Daniela Rus},
+  booktitle={Deep RL Workshop NeurIPS 2021},
+  year={2021},
+  url={https://openreview.net/forum?id=jp9NJIlTK-t}
 }
 ```
 
