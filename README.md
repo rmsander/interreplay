@@ -1,13 +1,23 @@
 # Neighborhood Mixup Experience Replay (NMER)
+Ryan Sander, Wilko Schwarting, Tim Seyde, Igor Gilitschenski, Sertac Karaman, Daniela Rus 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+**Paper (L4DC 2022)** | **[Technical Report](https://github.com/rmsander/rmsander.github.io/blob/master/projects/nmer_tech_report.pdf)** | **AirXv** | **[Website](https://sites.google.com/view/nmer-drl)**
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![nmer_diagram](img/diagram.png)
-NMER is a novel off-policy data augmentation technique designed to improve the sample efficiency of deep reinforcement learning agents in continuous control tasks.
+**What is NMER?** NMER is a novel replay buffer technique designed for improving continuous control tasks that recombines previous experiences of deep reinforcement learning agents linearly through a simple geometric heuristic.
 
 
 ## Code Release
 Code release coming soon!
 
+## Trained Agents
+Videos coming soon
+
 ## Paper
-Please find 2021 NeurIPS Deep RL Workshop **[paper](https://openreview.net/pdf?id=jp9NJIlTK-t)**, as well as our supplementary **[technical report](https://rmsander.github.io/projects/nmer_tech_report.pdf)**. 
+Please find our 2021 NeurIPS Deep RL Workshop **[paper](https://openreview.net/pdf?id=jp9NJIlTK-t)**, as well as our supplementary **[technical report](https://rmsander.github.io/projects/nmer_tech_report.pdf)**. 
 
 If you find NMER useful, please consider citing our paper as:
 
