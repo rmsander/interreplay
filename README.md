@@ -1,7 +1,9 @@
 # Neighborhood Mixup Experience Replay (NMER)
-Ryan Sander, Wilko Schwarting, Tim Seyde, Igor Gilitschenski, Sertac Karaman, Daniela Rus 
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
+[Ryan Sander](https://scholar.google.com/citations?user=7B6apiIAAAAJ&hl=en)<sup>1</sup>, [Wilko Schwarting](https://scholar.google.com/citations?hl=en&user=YI1EqBoAAAAJ)<sup>1</sup>, [Tim Seyde](https://scholar.google.com/citations?hl=en&user=FJ7ILzkAAAAJ)<sup>1</sup>, [Igor Gilitschenski](https://scholar.google.com/citations?hl=en&user=Nuw1Y4oAAAAJ)<sup>1</sup>, [Sertac Karaman](https://scholar.google.com/citations?hl=en&user=Vu-Zb7EAAAAJ)<sup>2</sup>, [Daniela Rus](https://scholar.google.com/citations?hl=en&user=910z20QAAAAJ)<sup>1</sup>
+
+1 - MIT CSAIL, 2 - MIT LIDS
+
 **Paper (L4DC 2022)** | **[Technical Report](https://github.com/rmsander/rmsander.github.io/blob/master/projects/nmer_tech_report.pdf)** | **AirXv** | **[Website](https://sites.google.com/view/nmer-drl)**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -14,7 +16,7 @@ Ryan Sander, Wilko Schwarting, Tim Seyde, Igor Gilitschenski, Sertac Karaman, Da
 Code release coming soon!
 
 ## Trained Agents
-Videos coming soon
+Videos coming soon.
 
 ## Paper
 Please find our 2021 NeurIPS Deep RL Workshop **[paper](https://openreview.net/pdf?id=jp9NJIlTK-t)**, as well as our supplementary **[technical report](https://rmsander.github.io/projects/nmer_tech_report.pdf)**. 
