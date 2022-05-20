@@ -4,7 +4,7 @@
 
 1 - MIT CSAIL, 2 - MIT LIDS
 
-**Paper (L4DC 2022)** | **[Technical Report](https://github.com/rmsander/rmsander.github.io/blob/master/projects/nmer_tech_report.pdf)** | **AirXv** | **[Website](https://sites.google.com/view/nmer-drl)**
+**[Paper (L4DC 2022)](https://proceedings.mlr.press/v168/sander22a/sander22a.pdf)** | **[Technical Report](https://github.com/rmsander/rmsander.github.io/blob/master/projects/nmer_tech_report.pdf)** | **[AirXv](https://arxiv.org/abs/2205.09117)** | **[Website](https://sites.google.com/view/nmer-drl)**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
