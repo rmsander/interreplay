@@ -24,13 +24,19 @@ Please find our 2022 L4DC **[paper]([https://openreview.net/pdf?id=jp9NJIlTK-t](
 If you find NMER useful, please consider citing our paper as:
 
 ```
-@inproceedings{sander2022neighborhood,
-  title={Neighborhood Mixup Experience Replay: Local Convex Interpolation for Improved Sample Efficiency in Continuous Control Tasks},
-  author={Sander, Ryan and Schwarting, Wilko and Seyde, Tim and Gilitschenski, Igor and Karaman, Sertac and Rus, Daniela},
-  booktitle={Learning for Dynamics and Control Conference},
-  pages={954--967},
-  year={2022},
-  organization={PMLR}
+@InProceedings{pmlr-v168-sander22a,
+  title = 	 {Neighborhood Mixup Experience Replay: Local Convex Interpolation for Improved Sample Efficiency in Continuous Control Tasks},
+  author =       {Sander, Ryan and Schwarting, Wilko and Seyde, Tim and Gilitschenski, Igor and Karaman, Sertac and Rus, Daniela},
+  booktitle = 	 {Proceedings of The 4th Annual Learning for Dynamics and Control Conference},
+  pages = 	 {954--967},
+  year = 	 {2022},
+  editor = 	 {Firoozi, Roya and Mehr, Negar and Yel, Esen and Antonova, Rika and Bohg, Jeannette and Schwager, Mac and Kochenderfer, Mykel},
+  volume = 	 {168},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {23--24 Jun},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v168/sander22a/sander22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v168/sander22a.html}
 }
 ```
 
