@@ -1,0 +1,113 @@
+## Plotting results for SAC ##
+
+
+###################### ANT ##############################################
+
+############### Linear, L2 reg, Ant, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr5_k1/ant/linear_k100_rr5/', 'linear_no_per_rr20_k1/ant/linear_k100_rr20/', 'linear_no_per_rr20_k10/ant/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER, RR = 5, K = 1', 'SAC + NMER, RR = 20, K = 1', 'SAC + NMER, RR = 20, K = 10']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Ant-v2 --window_length 11
+
+############### Vanilla, Ant, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_rr1/ant/vanilla_per_rr1/', 'vanilla_rr5/ant/vanilla_per_rr5/', 'vanilla_rr20/ant/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['Vanilla SAC, RR = 1', 'Vanilla SAC, RR = 5', 'Vanilla SAC, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Ant-v2 --window_length 11
+
+############### PER, Ant, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_per_rr1/ant/vanilla_per_rr1/', 'vanilla_per_rr5/ant/vanilla_per_rr5/', 'vanilla_per_rr20/ant/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + PER, RR = 1', 'SAC + PER, RR = 5', 'SAC + PER, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Ant-v2 --window_length 11
+
+############### CT, Ant, RR = 5/20
+python3 seed_plots.py --base_path "['ct_no_per_rr5/ant/linear_k100_rr5/', 'ct_no_per_rr20/ant/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + CT, RR = 5', 'SAC + CT, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Ant-v2 --window_length 11
+
+############### Ant, Best, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr20_k10/ant/linear_k100_rr20/', 'ct_no_per_rr5/ant/linear_k100_rr5/', 'vanilla_per_rr1/ant/vanilla_per_rr1/', 'vanilla_rr1/ant/vanilla_per_rr1/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER', 'SAC + CT', 'SAC + PER', 'Vanilla SAC']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Ant-v2 --window_length 11
+
+
+###################### ANT ##############################################
+
+###################### HALFCHEETAH ##############################################
+
+############### Linear, L2 reg, HalfCheetah, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr5_k1/halfcheetah/linear_k100_rr5/', 'linear_no_per_rr20_k1/halfcheetah/linear_k100_rr20/', 'linear_no_per_rr20_k10/halfcheetah/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER, RR = 5, K = 1', 'SAC + NMER, RR = 20, K = 1', 'SAC + NMER, RR = 20, K = 10']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env HalfCheetah-v2 --window_length 11
+
+############### Vanilla, HalfCheetah, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_rr1/halfcheetah/vanilla_per_rr1/', 'vanilla_rr5/halfcheetah/vanilla_per_rr5/', 'vanilla_rr20/halfcheetah/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['Vanilla SAC, RR = 1', 'Vanilla SAC, RR = 5', 'Vanilla SAC, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env HalfCheetah-v2 --window_length 11
+
+############### PER, HalfCheetah, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_per_rr1/halfcheetah/vanilla_per_rr1/', 'vanilla_per_rr5/halfcheetah/vanilla_per_rr5/', 'vanilla_per_rr20/halfcheetah/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + PER, RR = 1', 'SAC + PER, RR = 5', 'SAC + PER, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env HalfCheetah-v2 --window_length 11
+
+############### CT, HalfCheetah, RR = 5/20
+python3 seed_plots.py --base_path "['ct_no_per_rr5/halfcheetah/linear_k100_rr5/', 'ct_no_per_rr20/halfcheetah/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + CT, RR = 5', 'SAC + CT, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env HalfCheetah-v2 --window_length 11
+
+############### HalfCheetah, Best, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr20_k10/halfcheetah/linear_k100_rr20/', 'ct_no_per_rr20/halfcheetah/linear_k100_rr20/', 'vanilla_per_rr5/halfcheetah/vanilla_per_rr5/', 'vanilla_rr1/halfcheetah/vanilla_per_rr1/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER', 'SAC + CT', 'SAC + PER', 'Vanilla SAC']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env HalfCheetah-v2 --window_length 11
+
+
+###################### HALFCHEETAH ##############################################
+
+
+###################### HOPPER ##############################################
+
+############### Linear, L2 reg, Hopper, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr5_k1/hopper/linear_k100_rr5/', 'linear_no_per_rr20_k1/hopper/linear_k100_rr20/', 'linear_no_per_rr20_k10/hopper/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER, RR = 5, K = 1', 'SAC + NMER, RR = 20, K = 1', 'SAC + NMER, RR = 20, K = 10']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Hopper-v2 --window_length 11
+
+############### Vanilla, Hopper, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_rr1/hopper/vanilla_per_rr1/', 'vanilla_rr5/hopper/vanilla_per_rr5/', 'vanilla_rr20/hopper/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['Vanilla SAC, RR = 1', 'Vanilla SAC, RR = 5', 'Vanilla SAC, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Hopper-v2 --window_length 11
+
+############### PER, Hopper, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_per_rr1/hopper/vanilla_per_rr1/', 'vanilla_per_rr5/hopper/vanilla_per_rr5/', 'vanilla_per_rr20/hopper/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + PER, RR = 1', 'SAC + PER, RR = 5', 'SAC + PER, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Hopper-v2 --window_length 11
+
+############### CT, Hopper, RR = 5/20
+python3 seed_plots.py --base_path "['ct_no_per_rr5/hopper/linear_k100_rr5/', 'ct_no_per_rr20/hopper/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + CT, RR = 5', 'SAC + CT, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Hopper-v2 --window_length 11
+
+############### Hopper, Best, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr20_k10/hopper/linear_k100_rr20/', 'ct_no_per_rr5/hopper/linear_k100_rr5/', 'vanilla_per_rr5/hopper/vanilla_per_rr5/', 'vanilla_rr20/hopper/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER', 'SAC + CT', 'SAC + PER', 'Vanilla SAC']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Hopper-v2 --window_length 11
+
+
+###################### HOPPER ##############################################
+
+
+
+###################### SWIMMER ##############################################
+
+############### Linear, L2 reg, Swimmer, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr5_k1/swimmer/linear_k100_rr5/', 'linear_no_per_rr20_k1/swimmer/linear_k100_rr20/', 'linear_no_per_rr20_k10/swimmer/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER, RR = 5, K = 1', 'SAC + NMER, RR = 20, K = 1', 'SAC + NMER, RR = 20, K = 10']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Swimmer-v2 --window_length 11
+
+############### Vanilla, Swimmer, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_rr1/swimmer/vanilla_per_rr1/', 'vanilla_rr5/swimmer/vanilla_per_rr5/', 'vanilla_rr20/swimmer/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['Vanilla SAC, RR = 1', 'Vanilla SAC, RR = 5', 'Vanilla SAC, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Swimmer-v2 --window_length 11
+
+############### PER, Swimmer, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_per_rr1/swimmer/vanilla_per_rr1/', 'vanilla_per_rr5/swimmer/vanilla_per_rr5/', 'vanilla_per_rr20/swimmer/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + PER, RR = 1', 'SAC + PER, RR = 5', 'SAC + PER, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Swimmer-v2 --window_length 11
+
+############### CT, Swimmer, RR = 5/20
+python3 seed_plots.py --base_path "['ct_no_per_rr5/swimmer/linear_k100_rr5/', 'ct_no_per_rr20/swimmer/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + CT, RR = 5', 'SAC + CT, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Swimmer-v2 --window_length 11
+
+############### Swimmer, Best, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr20_k1/swimmer/linear_k100_rr20/', 'ct_no_per_rr20/swimmer/linear_k100_rr20/', 'vanilla_per_rr20/swimmer/vanilla_per_rr20/', 'vanilla_rr20/swimmer/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER', 'SAC + CT', 'SAC + PER', 'Vanilla SAC']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Swimmer-v2 --window_length 11
+
+
+###################### SWIMMER ##############################################
+
+
+###################### WALKER2D ##############################################
+
+############### Linear, L2 reg, Walker2d, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr5_k1/walker2d/linear_k100_rr5/', 'linear_no_per_rr20_k1/walker2d/linear_k100_rr20/', 'linear_no_per_rr20_k10/walker2d/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER, RR = 5, K = 1', 'SAC + NMER, RR = 20, K = 1', 'SAC + NMER, RR = 20, K = 10']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Walker2d-v2 --window_length 11
+
+############### Vanilla, Walker2d, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_rr1/walker2d/vanilla_per_rr1/', 'vanilla_rr5/walker2d/vanilla_per_rr5/', 'vanilla_rr20/walker2d/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['Vanilla SAC, RR = 1', 'Vanilla SAC, RR = 5', 'Vanilla SAC, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Walker2d-v2 --window_length 11
+
+############### PER, Walker2d, RR = 1/5/20
+python3 seed_plots.py --base_path "['vanilla_per_rr1/walker2d/vanilla_per_rr1/', 'vanilla_per_rr5/walker2d/vanilla_per_rr5/', 'vanilla_per_rr20/walker2d/vanilla_per_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + PER, RR = 1', 'SAC + PER, RR = 5', 'SAC + PER, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Walker2d-v2 --window_length 11
+
+############### CT, Walker2d, RR = 5/20
+python3 seed_plots.py --base_path "['ct_no_per_rr5/walker2d/linear_k100_rr5/', 'ct_no_per_rr20/walker2d/linear_k100_rr20/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + CT, RR = 5', 'SAC + CT, RR = 20']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Walker2d-v2 --window_length 11
+
+############### Walker2d, Best, RR = 1/5/20
+python3 seed_plots.py --base_path "['linear_no_per_rr20_k10/walker2d/linear_k100_rr20/', 'ct_no_per_rr5/walker2d/linear_k100_rr5/', 'vanilla_per_rr5/walker2d/vanilla_per_rr5/', 'vanilla_rr1/walker2d/vanilla_per_rr1/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER', 'SAC + CT', 'SAC + PER', 'Vanilla SAC']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Walker2d-v2 --window_length 11
+
+
+###################### WALKER2D ##############################################
+
+#################################################### GPR ##############################################################
+######### HALFCHEETAH
+python3 seed_plots.py --base_path "['linear_no_per_rr20_k10/walker2d/linear_k100_rr20/', 'ct_no_per_rr5/walker2d/linear_k100_rr5/', 'vanilla_per_rr5/walker2d/vanilla_per_rr5/', 'vanilla_rr1/walker2d/vanilla_per_rr1/']" --seed_list "[232, 243, 254, 265]" --labels "['SAC + NMER', 'SAC + CT', 'SAC + PER', 'Vanilla SAC']" --base_dir /home/ryansander/Documents/meng/supercloud_results/linear_baselines_sac/ --env Walker2d-v2 --window_length 11
+
+
+
