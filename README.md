@@ -4,7 +4,7 @@
 
 1 - MIT CSAIL, 2 - University of Toronto, 3 - Toyota Research Institute, 4 - MIT LIDS
 
-**[Paper (L4DC 2022)](https://proceedings.mlr.press/v168/sander22a/sander22a.pdf)** | **[Technical Report](https://github.com/rmsander/rmsander.github.io/blob/master/projects/nmer_tech_report.pdf)** | **[AirXv](https://arxiv.org/abs/2205.09117)** | **[Website](https://sites.google.com/view/nmer-drl)**
+**[Paper (L4DC 2022)](https://proceedings.mlr.press/v168/sander22a/sander22a.pdf)** | **[AirXv](https://arxiv.org/abs/2205.09117)** | **[Website](https://sites.google.com/view/nmer-drl)**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -146,7 +146,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = cuda_visible_devices
 ```
 
 ## Paper
-Please find our 2022 L4DC **[paper]([https://openreview.net/pdf?id=jp9NJIlTK-t](https://proceedings.mlr.press/v168/sander22a/sander22a.pdf))**, as well as our supplementary **[technical report](https://rmsander.github.io/projects/nmer_tech_report.pdf)**. 
+Please find our 2022 L4DC **[paper](https://proceedings.mlr.press/v168/sander22a/sander22a.pdf)**, as well as **[thesis work](https://dspace.mit.edu/bitstream/handle/1721.1/138972/Sander-rmsander-meng-eecs-2021-thesis.pdf)** covering this topic.
 
 If you find NMER useful, please consider citing our paper as:
 
